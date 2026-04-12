@@ -1,0 +1,53 @@
+/*Overal style website*/
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #A47251;
+	font-family: "Quattrocento", serif;
+}
+
+/*Style for the header*/
+#header-nav {
+	background-color: #DD9E59;
+	border-radius: 0;
+  border: 0;
+}
+
+/*style for the brand Food, LLC*/
+.navbar-brand a{
+	padding-top: 25px;
+	padding-bottom: 40px;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+/*style for the drop-down menu*/
+#header-nav .navbar-collapse {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#nav-list {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-list li {
+	background: #F0D8A1;
+	border: 1px solid #fff;
+	padding: 10px;
+	margin: 0px;
+}
+
+/*Styling of the menu items itself*/
+.chicken, .beef, .sushi {
+	background-color: #DD9E59;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+ 
